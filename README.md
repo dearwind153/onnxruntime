@@ -54,3 +54,13 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+##android platform build:
+
+1) modify "build-onnxruntime-android.sh", and configure 
+
+--android --android_sdk_path /data/qci/apps/android-sdk-linux \
+--android_ndk_path /data/qci/apps/ndk/android-ndk-r20b \
+
+2) execute "build-onnxruntime-android.sh"
+
